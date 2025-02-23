@@ -1,0 +1,92 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(254, 237, 152);
+    
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+background-color: rgb(18, 46, 57);
+width: 100%;
+height: 100px;
+}
+
+.ul-navbar {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    background-color: rgb(18, 112, 141);
+    padding: 10px;
+    margin: 5px;
+    color: white;
+}
+
+.li-navbar:hover {
+    background-color: rgb(111, 116, 122);
+    transition: .0,3s ease-in-out;
+    transition-delay: .1s;
+    border: 8px;
+}
+
+.header {
+    border: 2px solid black;
+    background-color: rgb(166, 255, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gambar{
+    width: 10%;
+    height: 25%;
+}
+
+.paragraf {
+    border: 2px solid black;
+    background-color: rgb(138, 192, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: rgb(198, 248, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 50%;
+}
+
+td {
+    padding: 5px 10px; 
+}
+
+td:first-child {
+    text-align: left; 
+    font-weight: bold; 
+}
+
+td:last-child {
+    text-align: right; 
+    font-weight: bold; 
+}
+
+p {
+    padding: 10px;
+    line-height: 1.6; 
+}
